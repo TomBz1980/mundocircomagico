@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mundo Circo Mágico - Entretenimiento Circense para Niños</title>
+    <meta name="description" content="Espectáculos circenses, animación y talleres para niños en eventos. Servicios profesionales y coloridos para fiestas infantiles.">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+    <!-- Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXX"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-XXXXXXX'); // Reemplazar con ID real
+    </script>
+    <!-- SEO Optimización -->
+    <meta name="keywords" content="espectáculos circenses, animación infantil, talleres para niños, eventos especiales, payaso profesional, magia para niños, circo móvil, fiestas infantiles">
+</head>
+<body>
+    <header>
+        <img src="images/logo-circo.png" alt="Logo Mundo Circo Mágico" class="logo">
+        <h1 id="title" data-translate="title">Mundo Circo Mágico</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio" data-translate="inicio">Inicio</a></li>
+                <li><a href="#sobre-mi" data-translate="sobre_mi">Sobre Mí</a></li>
+                <li><a href="#servicios" data-translate="servicios">Servicios</a></li>
+                <li><a href="#galeria" data-translate="galeria">Galería</a></li>
+                <li><a href="#testimonios" data-translate="testimonios">Testimonios</a></li>
+                <li><a href="#blog" data-translate="blog">Blog</a></li>
+                <li><a href="#contacto" data-translate="contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        <select id="language-selector" class="language-selector">
+            <option value="es">Español</option>
+            <option value="en">English</option>
+        </select>
+    </header>
+
+    <section id="inicio">
+        <div class="video-container">
+            <video autoplay muted loop controls class="hero-video">
+                <source src="videos/circo-intro.mp4" type="video/mp4">
+                Tu navegador no soporta el elemento de video.
+            </video>
+        </div>
+        <div class="hero-content">
+            <h2 data-translate="welcome">¡Bienvenidos al Mundo Circo Mágico!</h2>
+            <p data-translate="descripcion_inicio">
+                Transformamos eventos infantiles en experiencias mágicas y emocionantes. Ofrecemos espectáculos circenses profesionales, animación de calidad y talleres creativos para niños de todas las edades.
+                Nuestro equipo de artistas especializados crea ambientes llenos de color, risas y sorpresas que harán que tu evento sea inolvidable.
+            </p>
+            <a href="#contacto" class="cta-button" data-translate="reserva">¡Reserva tu espectáculo ahora!</a>
+        </div>
+    </section>
+
+    <section id="sobre-mi">
+        <h2 data-translate="sobre_mi">Sobre Mí</h2>
+        <div class="about-content">
+            <img src="images/sobre-mi.jpg" alt="Artista circense" class="about-image">
+            <div class="about-text">
+                <p data-translate="descripcion_sobre_mi">
+                    Con más de 10 años de experiencia en el entretenimiento infantil, soy especialista en crear momentos mágicos que encantan a niños y adultos por igual.
+                    Mi pasión por el circo comenzó desde la infancia y he dedicado mi carrera a perfeccionar habilidades como malabarista, payaso, mago y animador.
+                    Cada espectáculo está diseñado con cuidado para adaptarse a las necesidades de tu evento, garantizando diversión garantizada y recuerdos inolvidables para los pequeños asistentes.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="servicios">
+        <h2 data-translate="servicios">Servicios</h2>
+        <div class="services-container">
+            <div class="service-category">
+                <h3 data-translate="espectaculos">Espectáculos</h3>
+                <div class="service-item">
+                    <img src="images/espectaculo1.jpg" alt="Espectáculo de payaso" class="service-image">
+                    <div class="service-text">
+                        <p data-translate="espectaculo1">✅ <strong data-translate="payaso">Espectáculo de Payaso</strong><br>
+                        🔹 <span data-translate="descripcion_payaso">Un show lleno de humor, travesuras y magia que hará reír a todos los asistentes. Incluye malabares, juegos de participación y sorpresas.</span></p>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <img src="images/espectaculo2.jpg" alt="Magia infantil" class="service-image">
+                    <div class="service-text">
+                        <p data-translate="espectaculo2">✅ <strong data-translate="magia">Magia Infantil</strong><br>
+                        🔹 <span data-translate="descripcion_magia">Un viaje lleno de asombro con trucos visuales, ilusiones y participaciones que dejarán a los niños con la boca abierta.</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-category">
+                <h3 data-translate="talleres">Talleres</h3>
+                <div class="service-item">
+                    <img src="images/taller1.jpg" alt="Taller de malabares" class="service-image">
+                    <div class="service-text">
+                        <p data-translate="taller1">✅ <strong data-translate="malabares">Taller de Malabares</strong><br>
+                        🔹 <span data-translate="descripcion_malabares">Aprendizaje divertido de técnicas básicas de malabares con bolas, clubes y aros. Desarrolla coordinación motriz y destreza.</span></p>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <img src="images/taller2.jpg" alt="Taller de acrobacias" class="service-image">
+                    <div class="service-text">
+                        <p data-translate="taller2">✅ <strong data-translate="acrobacias">Taller de Acrobacias</strong><br>
+                        🔹 <span data-translate="descripcion_acrobacias">Introducción segura a las acrobacias circenses, con ejercicios básicos y juegos corporales que fomentan el trabajo en equipo.</span></p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="service-category">
+                <h3 data-translate="eventos">Eventos</h3>
+                <div class="service-item">
+                    <img src="images/evento1.jpg" alt="Animación de fiestas" class="service-image">
+                    <div class="service-text">
+                        <p data-translate="evento1">✅ <strong data-translate="animacion">Animación de Fiestas</strong><br>
+                        🔹 <span data-translate="descripcion_animacion">Paquete completo de entretenimiento para fiestas infantiles, incluyendo shows, juegos, música y actividades adaptadas a la edad de los invitados.</span></p>
+                    </div>
+                </div>
+                <div class="service-item">
+                    <img src="images/evento2.jpg" alt="Circo móvil" class="service-image">
+                    <div class="service-text">
+                        <p data-translate="evento2">✅ <strong data-translate="circo_movil">Circo Móvil</strong><br>
+                        🔹 <span data-translate="descripcion_circo_movil">Instalación de estructuras circenses móviles para eventos especiales, creando un ambiente auténtico de circo con todas las atracciones incluidas.</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeria">
+        <h2 data-translate="galeria">Galería</h2>
+        <div class="gallery-container">
+            <img src="images/galeria1.jpg" alt="Espectáculo circense" class="gallery-image">
+            <img src="images/galeria2.jpg" alt="Taller de malabares" class="gallery-image">
+            <img src="images/galeria3.jpg" alt="Fiesta infantil" class="gallery-image">
+            <img src="images/galeria4.jpg" alt="Magia para niños" class="gallery-image">
+            <img src="images/galeria5.jpg" alt="Payaso interactuando" class="gallery-image">
+            <img src="images/galeria6.jpg" alt="Circo móvil" class="gallery-image">
+        </div>
+    </section>
+
+    <section id="testimonios">
+        <h2 data-translate="testimonios">Testimonios</h2>
+        <div class="testimonials-container">
+            <div class="testimonial">
+                <img src="images/testimonial1.jpg" alt="Cliente feliz" class="testimonial-image">
+                <div class="testimonial-text">
+                    <p data-translate="testimonial1">"El espectáculo de payaso en la fiesta de mi hijo fue increíble. Los niños estaban encantados y no paraban de reír durante todo el show."</p>
+                    <p data-translate="autor1"><strong>- María López</strong></p>
+                </div>
+            </div>
+            <div class="testimonial">
+                <img src="images/testimonial2.jpg" alt="Cliente feliz" class="testimonial-image">
+                <div class="testimonial-text">
+                    <p data-translate="testimonial2">"Contratamos el Circo Móvil para el cumpleaños de mi hija y fue todo un éxito. Las instalaciones eran impresionantes y las actividades mantuvieron entretenidos a todos los niños."</p>
+                    <p data-translate="autor2"><strong>- Juan Rodríguez</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="instagram-feed">
+        <h2 data-translate="instagram">Síguenos en Instagram</h2>
+        <div class="instagram-container">
+            <!-- Aquí se insertaría el feed de Instagram -->
+            <div class="instagram-placeholder">
+                <p data-translate="instagram_placeholder">Conéctate con nosotros en Instagram para ver nuestras últimas actuaciones y crear contenido exclusivo.</p>
+                <a href="#" data-translate="instagram_link">@mundocirmagico</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <h2 data-translate="contacto">Contacto</h2>
+        <form id="contact-form" action="https://formspree.io/f/xldgwajy" method="POST">
+            <label for="nombre" data-translate="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            
+            <label for="email" data-translate="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="mensaje" data-translate="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+            
+            <button type="submit" class="orange-button" data-translate="enviar">Enviar</button>
+        </form>
+        
+        <p><span data-translate="informacion_contacto">Información de Contacto:</span> <a href="mailto:mundocirmagico@gmail.com">mundocirmagico@gmail.com</a></p>
+        <p data-translate="telefono">Teléfono: +34 654 321 098</p>
+    </section>
+
+    <footer>
+        <p>
+            <a href="javascript:void(0);" onclick="togglePrivacyPolicy()" data-translate="policy_title">Política de Privacidad</a> | 
+            <a href="javascript:void(0);" onclick="toggleCopyright()" data-translate="copyright_title">Derechos de Autor</a>
+        </p>
+        
+        <div id="privacy-policy" class="hidden">
+            <h2 id="policy-title" data-translate="policy_title">Política de Privacidad</h2>
+            <p id="policy-text" data-translate="policy_text">
+                Esta política de privacidad describe cómo Mundo Circo Mágico recopila, utiliza y protege la información personal de sus usuarios.
+            </p>
+        </div>
+        
+        <div id="copyright" class="hidden">
+            <h2 id="copyright-title" data-translate="copyright_title">Derechos de Autor</h2>
+            <p id="copyright-text" data-translate="copyright_text">© 2025 Mundo Circo Mágico. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
